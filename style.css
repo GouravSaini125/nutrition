@@ -200,10 +200,11 @@ footer .fdiv ul li span{
         clip-path: circle(100px at 90% -20%);
         -webkit-clip-path: circle(100px at 90% -20%);
         transition: clip-path 0.7s ease-out;
+        padding-bottom: 20vh;
     }
     .nav-links.open{
-        clip-path: circle(110vh at 90% -10%);
-        -webkit-clip-path: circle(110vh at 90% -10%);
+        clip-path: circle(105vh at 90% -10%);
+        -webkit-clip-path: circle(105vh at 90% -10%);
         pointer-events: all;
     }
     .nav-links li{
