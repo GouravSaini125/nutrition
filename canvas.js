@@ -32,7 +32,7 @@ var colorArray = [
 ];
 
 window.addEventListener('resize',function(){
-    var ch = window.innerHeight-(window.innerHeight/10);
+    var ch = window.innerHeight-(window.innerHeight/2);
     canvas.width = window.innerWidth;
     canvas.height = ch;
 
