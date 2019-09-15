@@ -196,13 +196,14 @@ footer .fdiv ul li span{
         height:100vh;
         width:100%;
         flex-direction: column;
+        justify-content: space-around;
         clip-path: circle(100px at 90% -20%);
         -webkit-clip-path: circle(100px at 90% -20%);
         transition: clip-path 0.7s ease-out;
     }
     .nav-links.open{
-        clip-path: circle(100vh at 90% -10%);
-        -webkit-clip-path: circle(100vh at 90% -10%);
+        clip-path: circle(110vh at 90% -10%);
+        -webkit-clip-path: circle(110vh at 90% -10%);
         pointer-events: all;
     }
     .nav-links li{
