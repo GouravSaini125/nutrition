@@ -203,8 +203,8 @@ footer .fdiv ul li span{
         padding-bottom: 20vh;
     }
     .nav-links.open{
-        clip-path: circle(102vh at 90% -10%);
-        -webkit-clip-path: circle(102vh at 90% -10%);
+        clip-path: circle(100vh at 90% -10%);
+        -webkit-clip-path: circle(100vh at 90% -10%);
         pointer-events: all;
     }
     .nav-links li{
