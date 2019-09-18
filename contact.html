@@ -29,7 +29,7 @@
             <ul class="nav-links">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="test.html">Testimonials</a></li>
-                
+                <li><a href="gallery.html">Gallery</a></li>
                 <li class="active"><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
@@ -44,21 +44,44 @@
 <section class="container contact">
     <div class="address">
         <h5>Address</h5>
-        <p>Kushalgarh Tiraha Alwar Rajasthan</p>
+        <p>Kushalgarh Tiraha, Near Kanhaiya Sweets, Sariska</p><p>Alwar, Rajasthan-301001</p>
         <h5>Phone Number</h5>
         <p>+91 9413158280</p>
         <h5>E-mail</h5>
-        <p>purushottamsaini@gmail.com</p>
+        <p>purushuttamsaini@gmail.com</p>
     </div>
     <div class="ext">
         <h5>Call Us</h5>
         <a href="tel:9413158280">Click to Call</a>
         <h5>Mail Us</h5>
-        <a href="mailto:purushottamsaini@gmail.com">Click to Mail</a>
+        <a href="mailto:purushuttamsaini@gmail.com">Click to Mail</a>
             <h5>Follow Us</h5>
-            <a href="#" class="fa fa-facebook"></a>
+            <a href="https://www.facebook.com/purushottam.saini.560" class="fa fa-facebook"></a>
     </div>
 </section>
+
+<div class="map">
+<div id="map"></div></div>
+<script>
+    // Initialize and add the map
+    function initMap() {
+        // The location of Uluru
+        var uluru = { lat: 27.4271821, lng: 76.4356318 };
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), { zoom: 4, center: uluru });
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({ position: uluru, map: map });
+    }
+</script>
+<!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=
+AIzaSyByiP8dkQWaFlKfx94Du73-4iHITHc5JC4&callback=initMap">
+</script>
 
         <footer>
             <div class="fdiv">
@@ -69,6 +92,7 @@
                     <ul>
                         <li><a href="home.html">Home</a></li>
                         <li><a href="test.html">Testimonials</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
@@ -80,13 +104,13 @@
                 <div>
                     <ul>
                         <li>Address:<br>
-                            <span>Kushalgarh Alwar rajasthan</span>
+                            <span>Kushalgarh Tiraha, Sariska, Alwar</span>
                         </li>
                         <li>Phone no.<br>
                             <span>+91 9413158280</span>
                         </li>
                         <li>E-mail:<br>
-                            <span>abcd@gmail.com</span>
+                            <span>purushuttamsaini@gmail.com</span>
                         </li>
                     </ul>
                 </div>
@@ -96,9 +120,8 @@
                     <h1>Social Links</h1>
                 </div>
                 <div class="second">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-google"></a>
+                    <a href="https://www.facebook.com/purushottam.saini.560" class="fa fa-facebook"></a>
+                    <a href="mailto:purushuttamsaini@gmail.com" class="fa fa-google"></a>
                 </div>
             </div>
         </footer>
