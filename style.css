@@ -17,7 +17,7 @@ nav{
     width: 100%;
     height:10vh;
     background: rgb(108, 38, 173);
-    z-index: 7;
+    z-index: 77;
 }
 .nav-links{
     display:flex;
@@ -36,7 +36,7 @@ nav{
 
 }
 
-.nav-links li:hover{
+.nav-links li.active, .nav-links li:hover{
     transform: scale(1.1);
     border-color:#fff;
 }
@@ -45,6 +45,16 @@ nav{
     color: white;
     text-decoration: none;
     font-size: 16px;
+    outline: none;
+}
+nav .logo{
+    position: absolute;
+}
+
+nav .logo h2{
+    padding-left: 3vw;
+    transform: translateY(20%);
+    color:#fff;
 }
 
 /*===================canvas=====================*/
@@ -86,10 +96,11 @@ canvas{
 }
 .test{
     overflow: hidden;
-    margin-top:5vh;
 }
 .test img{
+    padding:3vh 3vw 0 0;
     min-height: 100%;
+    width: 22vw;
     transition: opacity 0.7s ease-out;
     transition: transform 0.7s ease-out;
 }
@@ -97,6 +108,13 @@ canvas{
 .test img:hover{
     transform: scale(1.1);
     opacity:0.5;
+}
+
+.gh button{
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width:20vw;
 }
 
 /*================Footer===============================*/
@@ -165,8 +183,90 @@ footer .fdiv ul li span{
     color: rgb(40, 39, 44);
 }
 
+/*===========xtext===================*/
+
+.notext{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.notext .innertext{
+    display:flex;
+    flex-direction: column;
+    justify-content: center !important;
+}
+.notext span{
+    font-size: 6em;
+    text-align: right;
+    padding:0px 15px 20px;
+}
+.notext .innertext ul{
+    list-style: none;
+    color:#fff;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin: 5vh 0 5vh 0;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coach, .shop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.coach img, .shop img{
+    margin-bottom:10px;
+    padding: 25px;
+    border: 10px solid #fff;
+    width:80vw;
+}
+
+.gh{
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.text2{
+    padding:5vh 10vw 10px 10vw !important;
+}
+.text2 ul{
+    display: grid;
+    grid-template-columns: 50% auto;
+    text-justify: left;
+    padding:10px 0px 10px 15vw;
+}
+
 
 @media screen and (max-width:768px){
+    .contact{
+        flex-direction: column;
+    }
+
+.text2{
+    margin-top: 8vh;
+}
+.text2 ul{
+    display: grid;
+    grid-template-columns: 55% auto;
+    text-align: left;
+    padding:10px 10px 30px;
+}
     
     .line{
         width:30px;
@@ -240,5 +340,8 @@ footer .fdiv ul li span{
         align-content: center;
         justify-content: space-evenly;
     }
-    
+    .gallery img{
+        width:35vw;
+    }
 }
+
