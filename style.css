@@ -212,10 +212,11 @@ footer .fdiv ul li span{
     font-size: 6em;
     text-align: right;
     padding:0px 15px 20px;
+    color: #fff;
 }
 .notext .innertext ul{
     list-style: none;
-    color:#fff;
+    color:rgb(0, 0, 0);
 }
 .contact{
     display: flex;
