@@ -3,10 +3,10 @@ showSlides();
 
 function showSlides() {
     var options = '';
-        options += '<img src="img/00'+i+'.jpg">';
+        options += '<img src="img/00'+i+'.jpg" class="img-fluid">';
     $('#banner').html(options);
-    i++;
-    if (i >= 4) {
+    i+=1;
+    if (i >= 5) {
         i = 1;
     }
   setTimeout(showSlides, 5000); // Change image every 2 seconds
