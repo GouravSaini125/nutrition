@@ -92,7 +92,8 @@ canvas{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: space-around;
+    align-content: space-between;
+    width: 100%;
     margin-bottom: 3vh;
 }
 
@@ -103,11 +104,12 @@ canvas{
 
 .test{
     overflow: hidden;
+    width: 25%;
 }
 .test img{
-    padding:3vh 3vw 0 0;
+    padding: 2vh 2vw 2vh 2vw;
     min-height: 100%;
-    width: 22vw;
+    min-width: 98%;
     transition: opacity 0.7s ease-out;
     transition: transform 0.7s ease-out;
 }
@@ -245,11 +247,14 @@ footer .fdiv ul li span{
     margin-bottom: 5vh;
 }
 
+
+
+
 .coach img, .shop img{
     margin-bottom:10px;
-    padding: 25px;
+    padding: 10px;
     border: 10px solid #fff;
-    width:80vw;
+    width:92vw;
 }
 
 .gh{
@@ -320,6 +325,9 @@ footer .fdiv ul li span{
     .map{
         padding: 3vh 3vw 3vh 3vw;
     }
+    .test{
+        width: 48%;
+    }
 
 .text2{
     margin-top: 8vh;
@@ -355,7 +363,7 @@ footer .fdiv ul li span{
 
     .nav-links{
         position: fixed;
-        background: rgb(108, 38, 173);
+        background: rgb(0, 97, 24);
         height:100vh;
         width:100%;
         flex-direction: column;

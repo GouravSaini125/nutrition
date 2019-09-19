@@ -11,6 +11,8 @@
         <title>Insan Health Center</title>
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     </head>
 
     <body>
@@ -41,7 +43,7 @@
             <h1>Testimonials</h1>
         </div>
 
-        <div class="container gh">
+        <div class="gh">
             <h3>Testimonials</h3>
             <div class="gallery" id="gallery">
             </div>
@@ -101,8 +103,14 @@
     <script src="bootstrap.min.js"></script>
     <script src="nav.js"></script>
     <script src="canvas.js"></script>
+        <script src="slider.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="ekko-lightbox.js"></script>
     <script>
+        AOS.init({
+            duration: 1000,
+        });
         $(document).on('click', '[data-toggle="lightbox"]', function (event) {
             event.preventDefault();
             $(this).ekkoLightbox();
