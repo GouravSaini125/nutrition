@@ -8,7 +8,7 @@
 
 body{
     font-family: sans-serif;
-    background-color: rgb(174, 159, 241) !important;
+    background-color: rgb(174, 162, 226) !important;
     color:rgb(29, 0, 160) !important;
 
 }
@@ -266,7 +266,7 @@ footer .fdiv ul li span{
 }
 
 .text2{
-    padding:1vh 10vw 10px 10vw !important;
+    padding:5vh 10vw 10px 10vw !important;
 
 }
 .text2 ul{
@@ -354,7 +354,7 @@ footer .fdiv ul li span{
     }
 
 .text2{
-    margin-top: 8vh;
+    margin-top: 4vh;
 }
 .text2 ul{
     display: grid;
