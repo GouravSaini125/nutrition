@@ -8,7 +8,7 @@
 
 body{
     font-family: sans-serif;
-    background-color: rgb(158, 140, 240) !important;
+    background-color: rgb(174, 159, 241) !important;
     color:rgb(29, 0, 160) !important;
 
 }
@@ -329,6 +329,19 @@ footer .fdiv ul li span{
 
 
 @media screen and (max-width:768px){
+    .hdline h1{
+        font-size: 30px !important;
+    }
+
+.hdline{
+    position: absolute;
+    top: 20% !important;
+    left:50%;
+    text-align: center;
+    transform: translate(-55%,-50%);
+    transition: opacity 1s ease 0.3s;
+    pointer-events: none;
+}
     .contact{
         flex-direction: column;
     }
