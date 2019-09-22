@@ -20,7 +20,7 @@ nav{
     width: 100%;
     overflow-y: hidden;
     height:10vh;
-    background: rgb(0, 97, 24);
+    background: rgb(105, 82, 204);
     z-index: 77;
 }
 .nav-links{
@@ -72,7 +72,7 @@ nav .logo h2{
 
 .hdline{
     position: absolute;
-    top:30%;
+    top:25%;
     left:50%;
     text-align: center;
     transform: translate(-55%,-50%);
