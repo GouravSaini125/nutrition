@@ -353,9 +353,7 @@ footer .fdiv ul li span{
         width: 48%;
     }
 
-.text2{
-    margin-top: 4vh;
-}
+
 .text2 ul{
     display: grid;
     grid-template-columns: 55% auto;
