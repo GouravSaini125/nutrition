@@ -8,7 +8,7 @@
 
 body{
     font-family: sans-serif;
-    background-color: rgb(174, 162, 226) !important;
+    background-color: rgb(231, 186, 172) !important;
     color:rgb(29, 0, 160) !important;
 
 }
@@ -333,7 +333,7 @@ footer .fdiv ul li span{
 
 .hdline{
     position: absolute;
-    top: 20% !important;
+    top: 25% !important;
     left:50%;
     text-align: center;
     transform: translate(-55%,-50%);
