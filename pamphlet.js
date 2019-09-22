@@ -2,7 +2,7 @@ var j = 1;
 
 $(function () {
     var options = '';
-  for (var i = 22; i < 26; i++) {
+  for (var i = 22; i <= 26; i++) {
     if (i % 2 == 0)
       if (j == 0)
         j = 1;
@@ -21,7 +21,7 @@ $(function () {
 
   $(function() {
     var options = '';
-    for (var i = 26; i <= 82; i++) {
+    for (var i = 27; i <= 86; i++) {
       if (i % 2 == 0)
       if (j == 0)
         j = 1;
